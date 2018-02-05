@@ -12,6 +12,7 @@
     "learn.json"
   ],
   "scripts": {
+    "test": "cd ./examples/react && yarn test",
     "test-server": "gulp test-server &",
     "gulp": "gulp"
   },
