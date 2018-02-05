@@ -8,8 +8,8 @@
     "todomvc-common": "^1.0.1"
   },
   "scripts": {
-    "test": "yarn && http-server & wait-on http://localhost:8080 && cypress run",
-    "cypress": "yarn && http-server & wait-on http://localhost:8080 && cypress open"
+    "test": "yarn && (http-server & wait-on http://localhost:8080 && cypress run)",
+    "cypress": "yarn && (http-server & wait-on http://localhost:8080 && cypress open)"
   },
   "devDependencies": {
     "cypress": "^1.4.2",
