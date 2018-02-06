@@ -13,7 +13,7 @@
     "wait-on": "^2.1.0"
   },
   "scripts": {
-    "test": "http-server & wait-on http://localhost:8080 && cypress run --record --key b515da91-6474-419e-8b05-4963f9bd202f",
+    "test": "http-server & wait-on http://localhost:8080 && cypress run --record --key 691a1ce5-b1ff-4aaa-8ad0-7f626c0ca124",
     "cypress": "cypress open",
     "start": "http-server"
   }
