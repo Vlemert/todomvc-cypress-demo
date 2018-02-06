@@ -8,4 +8,4 @@ cache:
 install:
   - cd ./examples/react && yarn
 script:
-  - cd yarn test
+  - yarn test
