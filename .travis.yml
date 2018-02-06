@@ -4,7 +4,7 @@ node_js:
 cache:
   yarn: true
   directories:
-    - node_modules
+    - examples/react/node_modules
 install:
   - cd ./examples/react && yarn
 script:
